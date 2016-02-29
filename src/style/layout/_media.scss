@@ -1,0 +1,1124 @@
+@media only screen and (min-width : 320px) and (max-width : 479px){
+  header {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+  header .top-info-block .training-door .head, header .top-info-block .training-wall .head {
+    font-size: 1em;
+  }
+  header .top-info-block .training-door img{
+    width: 200px;
+  }
+  header .top-info-block .training-wall img {
+    width: 200px;
+  }
+  header .top-info-block .training-door .door{
+    display: none;
+  }
+  header .top-info-block h2 {
+    font-size: 3em;
+  }
+  header .top-info-block .small-heading {
+    font-size: 1.25em;
+  }
+  header .top-info-block .training-wall .info-item .info-item_price .img-wrap .price,
+  header .top-info-block .training-wall .info-item .info-item_warranty .img-wrap .warant,
+  header .top-info-block .training-wall .info-item .info-item_complect .img-wrap .support{
+    width: 25px;;
+  }
+  header .top-info-block .info-item {
+    margin-top: 40px;
+  }
+  header .top-info-block .info-item .info-item_complect .img-wrap, header .top-info-block .info-item .info-item_price .img-wrap, header .top-info-block .info-item .info-item_warranty .img-wrap {
+    height: 30px;
+  }
+  header .top-info-block .info-item .info-item_complect h6, header .top-info-block .info-item .info-item_price h6, header .top-info-block .info-item .info-item_warranty h6 {
+    font-size: 1em;
+    line-height: 10px;
+  }
+  header .top-info-block .info-item .info-item_complect span, header .top-info-block .info-item .info-item_price span, header .top-info-block .info-item .info-item_warranty span {
+    font-size: 1em;
+  }
+  header .top-info-block .link-wrap {
+    margin-top: 30px;
+  }
+  header .top-info-block .link-wrap .link-wrap_name {
+    font-size: 1em;
+  }
+  .logo_bottom{
+    display: none;
+  }
+
+  .my-nav .logo {
+    padding: 10px 0;
+  }
+  .my-nav .logo img{
+    width: 150px;
+  }
+  .my-nav .mail a, .my-nav .phone a {
+    font-size: .9em;
+  }
+  .my-nav .menu ul li a {
+    font-size: 13px;
+    line-height: 30px;
+  }
+  .my-nav .menu ul li {
+    margin-left: 3px;
+  }
+  .my-nav .menu ul .last_el{
+    display: none;
+  }
+  .my-nav .mail img{
+    width: 22px;
+  }
+  .my-nav .phone img {
+    width: 22px;
+    height: 16px;
+    margin-top: -5px;
+  }
+  .my-nav .phone {
+    margin-top: -40px;
+    padding: 0;
+    float: none;
+  }
+  .my-nav .mail {
+    padding: 0;
+    float: none;
+    margin-top: -10px;
+  }
+  .my-nav .menu{
+    margin-top: -8px;
+    float: right;
+  }
+
+  /*.my-nav .logo {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .my-nav .logo img{
+    width: 50%;
+  }
+  .my-nav .mail a, .my-nav .phone a {
+    font-size: 1em;
+  }
+  .my-nav .menu ul li a {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .my-nav .menu ul li {
+    margin-left: 0;
+    float: none;
+  }
+  .my-nav .mail img{
+    width: 22px;
+    height: 18px;
+  }
+  .my-nav .phone img{
+    width: 22px;
+    height: 18px;
+    margin-top: -7px;
+  }
+  .my-nav .phone {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .my-nav .mail {
+    float: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .menu{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }*/
+
+
+
+  main .inform h3 {
+    font-size: 2em;
+  }
+
+  main .inform p {
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  main .inform .baner img{
+    width: 100%;
+    max-width: 474px;
+  }
+  main .inform .btn-large, main .work .btn-large, main .change .btn-large, main .faq .btn-large, main .reviews .btn-large {
+    padding: 4px 45px;
+    font-size: 1.2em;
+  }
+  main .inform .inform-block .visa {
+    width: 18%;
+    margin-top: 15px;
+  }
+  main .inform .inform-block .madein {
+    float: left;
+    margin: 15px 0 10px 0;
+  }
+  main .inform .inform-block .madein .flag {
+    width: 20%;
+  }
+  main .inform .inform-block .madein p {
+    font-size: .85em;
+    line-height: 1;
+  }
+  main .inform .inform-block .fb {
+    margin: 10px 0 0;
+    float: right;
+  }
+  main .inform .inform-block .fb p {
+    display: none;
+  }
+  main .work h1 {
+    font-size: 3em;
+  }
+  main .work .variant img{
+    width: 60%;
+  }
+  main .work .section-bg .rule span {
+    font-size: 2.75em;
+  }
+  main .work .section-bg .rule .descr {
+    font-size: 1.2em;
+  }
+  main .work .section-bg .rule p {
+    font-size: 1em;
+  }
+  main .work .variant {
+    float: none;
+    width: 100%;
+  }
+  main .work .section-bg .rule {
+    float: none;
+    width: 100%;
+  }
+  main .fitnes h2, main .change h2, main .faq h2  {
+    font-size: 2.5em;
+  }
+  main .fitnes .video-block .mini-video {
+    float: none;
+    width: 100%;
+  }
+  main .fitnes .social p {
+    font-size: 1em;
+  }
+  main .fitnes .social p {
+    font-size: 1.15em;
+  }
+  main .fitnes .social img{
+    width: 7%;
+  }
+  main .fitnes .posts .post1 .heading, main .fitnes .posts .post2 .heading {
+    font-size: 1em;
+  }
+  main .fitnes .posts .post1 p, main .fitnes .posts .post2 p {
+    font-size: .85em;
+  }
+  main .change .btn-small, main .reviews .btn-small {
+    padding: 2px 16px;
+    font-size: 1em;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    float: none;
+  }
+  main .change .training-door img{
+    width: 75%;
+  }
+  main .change .training-wall img{
+    width: 75%;
+  }
+  main .change .training-door ul li {
+    font-size: 1.1em;
+  }
+  main .change .training-wall ul li {
+    font-size: 1.1em;
+  }
+  main .change .training-door .video-rolik iframe, main .change .training-wall .video-rolik iframe{
+    display: none;
+  }
+  main .change .training-door .video-rolik a, main .change .training-wall .video-rolik a{
+    display: block;
+    color: $stack-color;
+  }
+  main .faq h2, main .change h2 {
+    line-height: 1;
+  }
+  main .reviews h5 {
+    font-size: 1.5em;
+  }
+  main .reviews .reviews-item .photo {
+    height: 50px;
+    width: 50px;
+  }
+  main .reviews .reviews-item .name p {
+    font-size: 1em;
+  }
+  main .reviews .reviews-item p {
+    font-size: .85em;
+  }
+  main .reviews .form .reyting {
+    float: none;
+    margin-top: 0;
+  }
+  main .reviews .reviews-item .reyting .block-price img {
+    width: 45%;
+  }
+  main .reviews .reviews-item .reyting .block-quality img {
+    width: 38%;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    width: 30%;
+  }
+  main .reviews .form input {
+    width: 120px;
+  }
+  main .faq .accordion-container .set>a {
+    font-size: 1.15em;
+  }
+  main .faq .accordion-container .set>a i {
+    font-size: 9px;
+  }
+  main .contact form input {
+    width: 88px;
+    margin-right: 5px;
+  }
+  main .reviews .reviews-item .reyting {
+    margin-top: 0;
+  }
+  main .reviews .form .reyting .block-price p, main .reviews .form .reyting .block-quality p {
+    font-size: 1em;
+  }
+  main .reviews .form .reyting .block-price img{
+    width: 46%;
+  }
+  main .reviews .form .reyting .block-quality img {
+    width: 18%;
+  }
+  main .reviews .reviews-item .reyting .block-price {
+    float: left;
+    margin-right: -10px;
+  }
+  footer .logo img{
+    width: 230px;
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 1em;
+  }
+  footer .mail img, footer .phone img {
+    width: 26px;
+    height: 21px;
+  }
+  footer .mail a, footer .phone a{
+    font-size: 0.85em;
+  }
+  footer .mail, footer .phone {
+    padding-top: 15px;
+    text-align: center;
+  }
+  footer .logo {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  footer ul{
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px){
+  header {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+  header .top-info-block .training-door .head, header .top-info-block .training-wall .head {
+    font-size: 1em;
+  }
+  header .top-info-block .training-door img{
+    width: 50%;
+  }
+  header .top-info-block .training-wall img {
+    width: 50%;
+  }
+  header .top-info-block .training-door .door{
+    display: none;
+  }
+  header .top-info-block h2 {
+    font-size: 3em;
+  }
+  header .top-info-block .small-heading {
+    font-size: 1.25em;
+  }
+  header .top-info-block .training-wall .info-item .info-item_price .img-wrap .price,
+  header .top-info-block .training-wall .info-item .info-item_warranty .img-wrap .warant,
+  header .top-info-block .training-wall .info-item .info-item_complect .img-wrap .support{
+    width: 18%;
+  }
+  header .top-info-block .info-item {
+    margin-top: 40px;
+  }
+  header .top-info-block .info-item .info-item_complect .img-wrap, header .top-info-block .info-item .info-item_price .img-wrap, header .top-info-block .info-item .info-item_warranty .img-wrap {
+    height: 30px;
+  }
+  header .top-info-block .info-item .info-item_complect h6, header .top-info-block .info-item .info-item_price h6, header .top-info-block .info-item .info-item_warranty h6 {
+    font-size: 1em;
+    line-height: 10px;
+  }
+  header .top-info-block .info-item .info-item_complect span, header .top-info-block .info-item .info-item_price span, header .top-info-block .info-item .info-item_warranty span {
+    font-size: 1em;
+  }
+  header .top-info-block .link-wrap {
+    margin-top: 30px;
+  }
+  header .top-info-block .link-wrap .link-wrap_name {
+    font-size: 1em;
+  }
+  .logo_bottom{
+    display: none;
+  }
+  .my-nav .logo {
+    padding: 10px 0;
+  }
+  .my-nav .logo img{
+    width: 180px;
+  }
+  .my-nav .mail a, .my-nav .phone a {
+    font-size: 1em;
+  }
+  .my-nav .menu ul li a {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .my-nav .menu ul li {
+    margin-left: 10px;
+  }
+  .my-nav .mail img{
+    width: 24px;
+  }
+  .my-nav .phone img {
+    width: 24px;
+    height: 18px;
+    margin-top: -5px;
+  }
+  .my-nav .phone {
+    margin-top: -45px;
+    padding: 0;
+    float: none;
+  }
+  .my-nav .mail {
+    padding: 0;
+    float: none;
+    margin-top: -10px;
+  }
+  .my-nav .menu{
+    margin-top: -8px;
+    float: right;
+  }
+  main .inform h3 {
+    font-size: 2em;
+  }
+  main .inform p {
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  main .inform .btn-large, main .work .btn-large, main .change .btn-large, main .faq .btn-large, main .reviews .btn-large {
+    padding: 4px 45px;
+    font-size: 1.2em;
+  }
+  main .inform .inform-block .visa {
+    width: 18%;
+    margin-top: 15px;
+  }
+  main .inform .inform-block .madein {
+    float: left;
+    margin: 15px 0 10px 0;
+  }
+  main .inform .inform-block .madein .flag {
+    width: 20%;
+  }
+  main .inform .inform-block .madein p {
+    font-size: .85em;
+    line-height: 1;
+  }
+  main .inform .inform-block .fb {
+    margin: 10px 0 0;
+    float: right;
+  }
+  main .inform .inform-block .fb p {
+    display: none;
+  }
+  main .work h1 {
+    font-size: 3em;
+  }
+  main .work .variant img{
+    width: 60%;
+  }
+  main .work .section-bg .rule span {
+    font-size: 2.75em;
+  }
+  main .work .section-bg .rule .descr {
+    font-size: 1.2em;
+  }
+  main .work .section-bg .rule p {
+    font-size: 1em;
+  }
+  main .fitnes h2, main .change h2, main .faq h2  {
+    font-size: 2.5em;
+  }
+  main .fitnes .video-block .mini-video {
+    float: none;
+    width: 100%;
+  }
+  main .fitnes .social p {
+    font-size: 1em;
+  }
+  main .fitnes .social p {
+    font-size: 1.15em;
+  }
+  main .fitnes .social img{
+    width: 7%;
+  }
+  main .fitnes .posts .post1 .heading, main .fitnes .posts .post2 .heading {
+    font-size: 1em;
+  }
+  main .fitnes .posts .post1 p, main .fitnes .posts .post2 p {
+    font-size: .85em;
+  }
+  main .change .btn-small, main .reviews .btn-small {
+    padding: 2px 16px;
+    font-size: 1em;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    float: none;
+  }
+  main .change .training-door ul li {
+    font-size: 1.1em;
+  }
+  main .change .training-wall ul li {
+    font-size: 1.1em;
+  }
+  main .faq h2 {
+    line-height: 1;
+  }
+  main .faq .accordion-container {
+    width: 480px;
+  }
+  main .reviews h5 {
+    font-size: 1.5em;
+  }
+  main .reviews .reviews-item .photo {
+    height: 50px;
+    width: 50px;
+  }
+  main .reviews .reviews-item .name p {
+    font-size: 1em;
+  }
+  main .reviews .reviews-item p {
+    font-size: .85em;
+  }
+  main .reviews .form .reyting {
+    float: none;
+    margin-top: 0;
+  }
+  main .reviews .reviews-item .reyting .block-price img {
+    width: 45%;
+  }
+  main .reviews .reviews-item .reyting .block-quality img {
+    width: 38%;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    width: 30%;
+  }
+  main .reviews .form input {
+    width: 120px;
+  }
+  main .faq .accordion-container .set>a {
+    font-size: 1.15em;
+  }
+  main .faq .accordion-container .set>a i {
+    font-size: 9px;
+  }
+  main .contact form input {
+    width: 88px;
+    margin-right: 5px;
+  }
+  main .reviews .reviews-item .reyting {
+    margin-top: 0;
+  }
+  main .reviews .form .reyting .block-price p, main .reviews .form .reyting .block-quality p {
+    font-size: 1em;
+  }
+  main .reviews .form .reyting .block-price img{
+    width: 46%;
+  }
+  main .reviews .form .reyting .block-quality img {
+    width: 18%;
+  }
+  main .reviews .reviews-item .reyting .block-price {
+    float: left;
+    margin-right: -10px;
+  }
+  footer .logo img{
+    width: 230px;
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 1em;
+  }
+  footer .mail img, footer .phone img {
+    width: 26px;
+    height: 21px;
+  }
+  footer .mail a, footer .phone a{
+    font-size: 0.85em;
+  }
+  footer .mail, footer .phone {
+    padding-top: 15px;
+    text-align: center;
+  }
+  footer .logo {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  footer ul{
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 630px){
+  main .video {
+    height: auto;
+  }
+  main .video .video-block-container{
+    display: none;
+  }
+  main .video a{
+    display: block!important;
+    color: $light-color;
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+  header {
+    height: 600px;
+    padding-top: 41px;
+  }
+  header .top-info-block .training-door .head, header .top-info-block .training-wall .head {
+    font-size: 1em;
+  }
+  header .top-info-block .training-door img, header .top-info-block .training-wall img{
+    width: 210px;
+  }
+
+  header .top-info-block h2 {
+    font-size: 3em;
+  }
+  header .top-info-block .small-heading {
+    font-size: 1.5em;
+  }
+  header .top-info-block .training-wall .info-item .info-item_price .img-wrap .price,
+  header .top-info-block .training-wall .info-item .info-item_warranty .img-wrap .warant,
+  header .top-info-block .training-wall .info-item .info-item_complect .img-wrap .support{
+    width: 37px;
+  }
+  header .top-info-block .info-item {
+    margin-top: 35px;
+  }
+  header .top-info-block .info-item .info-item_complect .img-wrap, header .top-info-block .info-item .info-item_price .img-wrap, header .top-info-block .info-item .info-item_warranty .img-wrap {
+    height: 35px;
+  }
+  header .top-info-block .info-item .info-item_complect h6, header .top-info-block .info-item .info-item_price h6, header .top-info-block .info-item .info-item_warranty h6 {
+    font-size: 1.2em;
+  }
+  header .top-info-block .info-item .info-item_complect span, header .top-info-block .info-item .info-item_price span, header .top-info-block .info-item .info-item_warranty span {
+    font-size: 1.2em;
+  }
+  header .top-info-block .link-wrap {
+    margin-top: 50px;
+  }
+  header .top-info-block .link-wrap .link-wrap_name {
+    font-size: 1em;
+  }
+  header .top-info-block .training-wall .logo_bottom {
+    width: 180px;
+  }
+  .my-nav .logo {
+    padding: 25px 0;
+  }
+  .my-nav .logo img{
+    width: 200px;
+  }
+  .my-nav .mail a, .my-nav .phone a {
+    font-size: 1em;
+  }
+  .my-nav .menu ul li a {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .my-nav .menu ul li {
+    margin-left: 12px;
+  }
+  .my-nav .mail img{
+    width: 28px;
+    height: 23px;
+  }
+  .my-nav .phone img{
+    width: 28px;
+    height: 23px;
+    margin-top: -7px;
+  }
+  .my-nav .phone {
+    padding: 10px 10px 0;
+  }
+  .my-nav .mail {
+    padding: 8px 0 0;
+  }
+  .my-nav .menu{
+    margin-top: 0;
+    float: right;
+    margin-right: 0;
+  }
+  main .inform h3 {
+    font-size: 2.4em;
+  }
+  main .inform p {
+    font-size: 1.2em;
+  }
+  main .inform .btn-large, main .work .btn-large, main .change .btn-large, main .faq .btn-large, main .reviews .btn-large {
+    padding: 4px 45px;
+    font-size: 1.2em;
+  }
+  main .inform .inform-block .visa {
+    width: 18%;
+    margin-top: 15px;
+  }
+  main .inform .inform-block .madein {
+    float: left;
+    margin: 15px 0 10px 100px;
+  }
+  main .inform .inform-block .madein .flag {
+    width: 20%;
+  }
+  main .inform .inform-block .madein p {
+    font-size: .85em;
+    line-height: 1;
+  }
+  main .inform .inform-block .fb {
+    margin: 10px 0 0;
+    float: right;
+  }
+  main .work h1 {
+    font-size: 3em;
+  }
+  main .work .variant img{
+    width: 60%;
+  }
+  main .work .section-bg .rule span {
+    font-size: 2.75em;
+  }
+  main .work .section-bg .rule .descr {
+    font-size: 1.2em;
+  }
+  main .work .section-bg .rule p {
+    font-size: 1em;
+  }
+  main .fitnes h2, main .change h2, main .faq h2  {
+    font-size: 2.5em;
+  }
+  main .fitnes .video-block .mini-video {
+    float: none;
+    width: 100%;
+  }
+  main .fitnes .social p {
+    font-size: 1em;
+  }
+  main .fitnes .social p {
+    font-size: 1.15em;
+  }
+  main .fitnes .social img{
+    width: 7%;
+  }
+  main .fitnes .posts .post1 .heading, main .fitnes .posts .post2 .heading {
+    font-size: 1.25em;
+  }
+  main .fitnes .posts .post1 p, main .fitnes .posts .post2 p {
+    font-size: 1em;
+  }
+  main .change .btn-small, main .reviews .btn-small {
+    padding: 2px 16px;
+    font-size: 1em;
+  }
+  main .change .training-door ul li, main .change .training-wall ul li  {
+    font-size: 1.15em;
+  }
+  main .faq .accordion-container .set>a {
+    font-size: 1.15em;
+  }
+  main .faq .accordion-container .set>a i {
+    font-size: 9px;
+  }
+  main .faq .btn-wrap p {
+    font-size: 1em;
+  }
+  main .reviews h5 {
+    font-size: 1.5em;
+  }
+  main .reviews .reviews-item .photo {
+    height: 50px;
+    width: 50px;
+  }
+  main .reviews .reviews-item .name p {
+    font-size: 1em;
+  }
+  main .reviews .reviews-item p {
+    font-size: .85em;
+  }
+  main .reviews .form .reyting {
+    float: none;
+    margin-top: 0;
+  }
+  main .reviews .reviews-item .reyting .block-price img {
+    width: 45%;
+  }
+  main .reviews .reviews-item .reyting .block-quality img {
+    width: 38%;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    width: 30%;
+  }
+  main .reviews .form input {
+    width: 140px;
+  }
+  main .contact form input {
+    width: 118px;
+  }
+  main .reviews .reviews-item .reyting {
+    margin-top: -28px;
+  }
+  main .reviews .form .reyting .block-price p, main .reviews .form .reyting .block-quality p {
+    font-size: 1em;
+  }
+  main .reviews .form .reyting .block-price img{
+    width: 46%;
+  }
+  main .reviews .form .reyting .block-quality img{
+    width: 17%;
+  }
+  footer .logo img{
+    width: 55%;
+  }
+  footer ul li a {
+    font-size: 1em;
+  }
+  footer .mail img{
+    width: 10%;
+  }
+  footer .phone img{
+    width: 8%;
+  }
+  footer .mail a, footer .phone a{
+    font-size: 0.85em;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+  header {
+    height: 600px;
+    padding-top: 61px;
+  }
+
+  header .top-info-block .training-door .head, header .top-info-block .training-wall .head{
+    font-size: 1.15em;
+  }
+  header .top-info-block .training-door img{
+    width: 262px;
+  }
+  header .top-info-block .training-wall img {
+    width: 262px;
+  }
+
+  header .top-info-block .training-door .door{
+    width: 188px;
+  }
+  header .top-info-block h2 {
+    font-size: 3.3em;
+  }
+  header .top-info-block .small-heading {
+    font-size: 1.5em;
+  }
+  header .top-info-block .training-wall .info-item .info-item_price .img-wrap .price,
+  header .top-info-block .training-wall .info-item .info-item_warranty .img-wrap .warant,
+  header .top-info-block .training-wall .info-item .info-item_complect .img-wrap .support{
+    width: 53px;
+  }
+  header .top-info-block .info-item .info-item_complect h6, header .top-info-block .info-item .info-item_price h6, header .top-info-block .info-item .info-item_warranty h6 {
+    font-size: 1.25em;
+  }
+  header .top-info-block .info-item .info-item_complect span, header .top-info-block .info-item .info-item_price span, header .top-info-block .info-item .info-item_warranty span {
+    font-size: 1.25em;
+  }
+  header .top-info-block .link-wrap .link-wrap_name {
+    font-size: 1.25em;
+  }
+  header .top-info-block .training-wall .logo_bottom{
+    width: 235px;
+  }
+  header .top-info-block .info-item {
+    margin-top: 20px;
+  }
+  header .top-info-block .link-wrap {
+    margin-top: 30px;
+  }
+  .my-nav .logo {
+    padding: 25px 0;
+  }
+  .my-nav .logo img{
+    width: 250px;
+  }
+  .my-nav .mail {
+    padding: 10px 0 0;
+  }
+  .my-nav .phone {
+    padding: 13px 10px 0;
+  }
+  .my-nav .mail a, .my-nav .phone a {
+    font-size: 1.15em;
+  }
+  .my-nav .mail img, .my-nav .phone img{
+    width: 33px;
+    height: 25px;
+  }
+  .my-nav .phone img {
+    margin-top: -10px;
+  }
+  .my-nav .menu{
+    float: right;
+    margin-right: 20px;
+  }
+
+  .my-nav .menu ul li a {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  main .inform h3 {
+    font-size: 2.5em;
+  }
+  main .inform p {
+    font-size: 1.5em;
+  }
+  main .inform .btn-large, main .work .btn-large, main .change .btn-large, main .faq .btn-large, main .reviews .btn-large {
+    padding: 5px 55px;
+    font-size: 1.5em;
+  }
+  main .inform .inform-block .madein .flag {
+    width: 4%;
+  }
+  main .inform .inform-block .visa {
+    width: 18%;
+  }
+  main .work h1 {
+    font-size: 4em;
+  }
+  main .work .section-bg .rule p {
+    font-size: 1.15em;
+  }
+  main .fitnes h2, main .change h2, main .faq h2  {
+    font-size: 3.5em;
+  }
+  main .fitnes .social p {
+    font-size: 1.15em;
+  }
+  main .fitnes .social img{
+    width: 7%;
+  }
+  main .fitnes .posts .post1 .heading, main .fitnes .posts .post2 .heading {
+    font-size: 1.25em;
+  }
+  main .fitnes .posts .post1 p, main .fitnes .posts .post2 p {
+    font-size: 1em;
+  }
+  main .change .training-wall .head, main .change .training-door .head {
+    font-size: 1.25em;
+  }
+  main .change .training-wall img, main .change .training-door img{
+    width: 60%;
+  }
+  main .change .btn-small, main .reviews .btn-small {
+    padding: 3px 20px;
+    font-size: 1.25em;
+  }
+  main .change .training-door ul li, main .change .training-wall ul li {
+    font-size: 1.15em;
+  }
+  main .faq .accordion-container .set>a {
+    font-size: 1.25em;
+  }
+  main .faq .btn-wrap p {
+    font-size: 1em;
+  }
+  main .reviews .reviews-item .photo {
+    height: 75px;
+    width: 75px;
+  }
+  main .reviews .reviews-item .name p {
+    font-size: 1.25em;
+  }
+  main .reviews .reviews-item p {
+    font-size: .85em;
+  }
+  main .reviews .reviews-item .reyting .block-price img {
+    width: 45%;
+  }
+  main .reviews .reviews-item .reyting .block-quality img {
+    width: 38%;
+  }
+  main .fitnes .posts .post1 img, main .fitnes .posts .post2 img {
+    width: 30%;
+  }
+  main .reviews .form input {
+    width: 140px;
+  }
+  main .reviews .form .reyting .block-price img {
+    width: 45%;
+  }
+  main .reviews .form .reyting .block-quality img {
+    width: 42%;
+  }
+  main .reviews .form .reyting .block-price, main .reviews .form .reyting .block-price p {
+    margin-left: 18px;
+  }
+  main .reviews .form .reyting {
+    margin-right: -30px;
+  }
+  main .contact form input {
+    width: 180px;
+  }
+  footer .logo img{
+    width: 55%;
+  }
+  footer ul li a {
+    font-size: 1em;
+  }
+  footer .mail img{
+    width: 20%;
+  }
+  footer .phone img{
+    width: 23%;
+  }
+  footer .mail a, footer .phone a{
+    font-size: 0.85em;
+  }
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1920px){
+  .my-nav .logo img {
+    width: 85%;
+  }
+  .my-nav .menu{
+    margin-right: 0;
+    float: right;
+  }
+  .my-nav .menu ul li {
+    float: left;
+    margin-left: 18px;
+  }
+  .my-nav .logo {
+    padding: 30px 0;
+  }
+  .my-nav .mail {
+    padding: 15px 0 0;
+  }
+  .my-nav .phone {
+    padding: 18px 10px 8px;
+  }
+  main .inform h3 {
+    font-size: 2.8em;
+    padding-bottom: 30px;
+  }
+  main .inform .inform-block .madein .flag{
+    width: 3%;
+  }
+  main .inform .inform-block .visa{
+    width: 15%;
+  }
+  main .inform p {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+  main .inform .btn-large, main .work .btn-large, main .change .btn-large, main .faq .btn-large, main .reviews .btn-large{
+    padding: 5px 50px;
+    font-size: 1.5em;
+  }
+  main .change .training-door .btn-small,  main .change .training-wall .btn-small, main .reviews .form .btn-small {
+    padding: 4px 24px;
+    font-size: 1.2em;
+  }
+  main .work h1 {
+    font-size: 4em;
+  }
+  main .work .variant img{
+    width: 55%;
+  }
+  main .work .section-bg .rule p {
+    font-size: 1.25em;
+  }
+  main .fitnes h2, main .change h2, main .faq h2, main .work .section-bg .rule span  {
+    font-size: 3.5em;
+  }
+  main .fitnes .posts .post1 .heading, main .fitnes .posts .post2 .heading {
+    font-size: 1.3em;
+  }
+  main .fitnes .posts .post1 p, main .fitnes .posts .post2 p {
+    font-size: 1em;
+  }
+  main .fitnes .social p {
+    font-size: 1em;
+  }
+  main .change .training-door img, main .change .training-wall img{
+    width: 65%;
+  }
+  main .change .training-door ul li, main .change .training-wall ul li {
+    font-size: 1.25em;
+  }
+  main .faq .btn-wrap p {
+    font-size: 1em;
+  }
+  main .reviews .reviews-item .photo {
+    height: 75px;
+    width: 75px;
+  }
+  main .reviews .reviews-item .name p {
+    font-size: 1.3em;
+  }
+  main .reviews .reviews-item .reyting .block-price img {
+    width: 50%;
+  }
+  main .reviews .reviews-item .reyting .block-quality img{
+    width: 43%;
+  }
+  main .reviews .form .reyting .block-price img {
+    width: 51%;
+  }
+  main .reviews .form .reyting .block-quality img {
+    width: 45%;
+  }
+  main .reviews .form .reyting .block-price p, main .reviews .form .reyting .block-quality p {
+    font-size: 1em;
+  }
+  footer .logo img {
+    width: 45%;
+  }
+  footer ul li a {
+    font-size: 1.1em;
+  }
+}

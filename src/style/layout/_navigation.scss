@@ -1,0 +1,71 @@
+.my-nav{
+  background-color: $base-color;
+  width: 100%;
+  max-width: 1920px;
+  border-bottom: 7px solid $stack-color;
+  display: inline-block;
+  position: relative;
+  .logo{
+    padding: 45px 0;
+  }
+  .phone{
+    float: right;
+    padding: 35px 10px 0;
+    img{
+      margin-top: -15px;
+    }
+    a{
+      font-family:$PTSansNarrowBold;
+      font-size: 24px;
+      line-height: 30px;
+      @extend .heading-style;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .mail{
+    float: right;
+    padding: 30px 0 0;
+    a{
+      font-family:$PTSansNarrowRegular;
+      font-size: 24px;
+      line-height: 30px;
+      text-decoration: underline;
+      @extend .heading-style;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .menu{
+    ul{
+      list-style: none;
+      li{
+        float: left;
+        margin-left:13px;
+        a{
+          font-family: $PTSansNarrowRegular;
+          color: $light-color;
+          font-size: 22px;
+          line-height: 22px;
+          text-align: center;
+          &:hover, &:focus{
+            text-decoration: none;
+            color: $stack-color;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+.my-nav.stickly{
+  z-index: 149;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,101 @@
+header{
+  background: url("../../img/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 860px;
+  margin: 0 auto -35px;
+  padding-top: 75px;
+  .top-info-block{
+
+    .training-door{
+      text-align: center;
+
+      .head{
+        font-family: $PTSansNarrowRegular;
+        color: $link-color;
+        font-size: $h6-size;
+        text-align: center;
+        transform: scaleY(1.0002);
+        margin: 0 0 10px 0;
+        span{
+          font-weight: 700;
+        }
+      }
+    }
+
+    .training-wall{
+      text-align: center;
+      .head {
+        font-family: $PTSansNarrowRegular;
+        color: $link-color;
+        font-size: $h6-size;
+        text-align: center;
+        transform: scaleY(1.0002);
+        margin: 0 0 10px 0;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+
+    h2{
+      font-size: 4.2em;
+      text-transform: uppercase;
+      letter-spacing: 2.1px;
+      @extend .heading-style
+    }
+    .small-heading{
+      font-family:$PTSansNarrowBold;
+      color: $base-color;
+      font-size: $h4-size;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -1.2px;
+    }
+    .info-item{
+      width: 100%;
+      margin-top: 70px;
+      .info-item_price, .info-item_warranty, .info-item_complect{
+        float: left;
+        width: 33%;
+        .img-wrap{
+          height: 70px;
+        }
+        h6{
+          margin-top: 20px;
+          margin-bottom: 0;
+          font-size: 1.65em;
+          line-height: 20px;
+          @extend .heading-style
+        }
+        span{
+          font-family:$PTSansNarrowBold;
+          font-size: 2.2em;
+          font-weight: 700;
+        }
+
+      }
+
+    }
+    .link-wrap{
+      margin-top: 75px;
+      width: 100%;
+      text-align: center;
+      a{
+        display: block;
+      }
+      .link-wrap_name{
+        font-family:$PTSansNarrowBold;
+        color: $link-color;
+        font-size: $h6-size;
+        font-weight: 700;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}

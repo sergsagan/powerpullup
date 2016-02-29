@@ -1,0 +1,17 @@
+{
+  "name": "powerpullup",
+  "version": "2.0.0",
+  "homepage": "index.js",
+  "authors": [
+    "zorro76 <sergey.martynuk@gmail.com"
+  ],
+  "description": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}

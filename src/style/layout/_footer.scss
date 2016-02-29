@@ -1,0 +1,28 @@
+footer{
+  background: $base-color;
+  width: 100%;
+  padding: 30px 0;
+  .logo{
+    padding-bottom: 30px;
+  }
+  ul{
+    list-style: none;
+    li{
+      a{
+        font-family: $PTSansNarrowRegular;
+        color: $light-color;
+        font-size: $other-size;
+        &:hover{
+          text-decoration: underline;
+          color: $light-color;
+        }
+      }
+    }
+  }
+  .mail, .phone{
+    padding-top: 55px;
+    a{
+      color: $light-color;
+    }
+  }
+}

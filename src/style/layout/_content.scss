@@ -1,0 +1,489 @@
+main{
+
+  .inform{
+
+    h3{
+      font-size: $h3-size;
+      text-transform: uppercase;
+      @extend .heading-style;
+    }
+    p{
+      font-family: $PTSansNarrowRegular;
+      color: $base-color;
+      font-size: $h5-size;
+      line-height: 1;
+      text-align: left;
+    }
+    .inform-block{
+      margin-left: 20px;
+      .madein{
+        margin: 30px 0 20px;
+        .flag{
+          float: left;
+          margin-right: 10px;
+        }
+        p{
+          font-family:$PTSansNarrowBold;
+          color: $base-color;
+          font-weight: 700;
+          font-size: 1em;
+          line-height: 2;
+          text-align: left;
+        }
+      }
+      .fb{
+        margin: 10px 0 10px;
+        img{
+          float: left;
+          cursor: pointer;
+        }
+        p{
+          font-family:$PTSansNarrowBold;
+          color: $base-color;
+          font-weight: 700;
+          font-size: .6em;
+          line-height: 3.2;
+          text-align: left;
+        }
+      }
+    }
+
+    .btn-wrap{
+      padding: 30px 0;
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $small-size;
+        line-height: 1.667;
+        text-align: center;
+      }
+    }
+  }
+
+  .work{
+    h1{
+      font-size: $h1-size;
+      @extend .heading-style;
+    }
+    .variant{
+      float: left;
+      width: 33%;
+    }
+    .section-bg{
+      background-color: $bg-block-color;
+      width: 100%;
+      max-width: 1920px;
+      padding: 20px 0;
+      .rule{
+        float: left;
+        width: 33%;
+        text-align: center;
+        padding: 0 15px;
+        span{
+          font-size: $h2-size;
+          line-height: 0.5;
+          text-align: center;
+          @extend .heading-style;
+        }
+        .descr{
+          font-size: 1.5em;
+          line-height: 1.25;
+          text-align: center;
+          @extend .heading-style;
+        }
+        p{
+          font-family: $PTSansNarrowRegular;
+          color: $base-color;
+          font-size: $other-size;
+          text-align: left;
+        }
+      }
+      .btn-wrap{
+        padding: 30px 0 0;
+      }
+    }
+
+  }
+
+  .fitnes{
+    padding-bottom: 60px;
+
+    h2{
+      font-size: $h2-size;
+      line-height: 0.5;
+      padding: 20px 0;
+      @extend .heading-style;
+    }
+
+    .video-block{
+      text-align: center;
+      padding: 0 0 20px;
+      .mini-video{
+        float: left;
+        width: 33%;
+      }
+    }
+    .social{
+      text-align: center;
+      padding: 20px 0;
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $other-size;
+        font-weight: 700;
+      }
+    }
+    .posts{
+      width: 100%;
+      h6{
+        font-size: $other-size;
+        @extend .heading-style;
+      }
+      .post1, .post2{
+        float: left;
+        width: 48%;
+        .heading{
+          font-size: $h6-size;
+          @extend .heading-style;
+        }
+        img{
+          float: left;
+        }
+        p{
+          font-family: $PTSansNarrowRegular;
+          color: $base-color;
+          font-size: $other-size;
+        }
+        a{
+          @extend .heading-style;
+        }
+      }
+    }
+  }
+
+  .video{
+    background-color: $base-color;
+    height:420px;
+    h4{
+      font-family: $PTSansNarrowBold;
+      color: $light-color;
+      font-size: $h5-size;
+      font-weight: 700;
+      text-align: center;
+    }
+    .video-block-container{
+      width: 100%;
+    }
+    a{
+      display: none;
+    }
+  }
+
+  .change{
+
+    h2{
+      font-family: $PTSansNarrowBold;
+      color: $red-color;
+      font-size: $h2-size;
+      font-weight: 700;
+      line-height: 0.5;
+      text-align: left;
+      padding: 20px 0 40px;
+    }
+
+    .training-door{
+      text-align: center;
+
+      .head{
+        font-family: $PTSansNarrowRegular;
+        color: $link-color;
+        font-size: $h6-size;
+        text-align: center;
+        transform: scaleY(1.0002);
+        margin: 0 0 10px 0;
+        span{
+          font-weight: 700;
+        }
+      }
+      .mini-block{
+        text-align: center;
+        padding: 20px 0;
+        .mini-block-1, .mini-block-2, .mini-block-3{
+          float: left;
+          width: 33%;
+        }
+      }
+      .video-rolik{
+        a{
+          display: none;
+        }
+      }
+
+      .btn-wrap{
+        padding: 30px 0;
+      }
+      ul{
+        list-style: none;
+        li{
+          text-align: left;
+          font-family: $PTSansNarrowRegular;
+          color: $base-color;
+          font-size: $other-size;
+        }
+      }
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $other-size;
+        font-weight: 700;
+      }
+    }
+
+    .training-wall{
+      text-align: center;
+      .head {
+        font-family: $PTSansNarrowRegular;
+        color: $link-color;
+        font-size: $h6-size;
+        text-align: center;
+        transform: scaleY(1.0002);
+        margin: 0 0 10px 0;
+        span {
+          font-weight: 700;
+        }
+      }
+
+      .mini-block{
+        text-align: center;
+        padding: 20px 0;
+        .mini-block-1, .mini-block-2, .mini-block-3{
+          float: left;
+          width: 33%;
+        }
+      }
+
+      .video-rolik{
+        a{
+          display: none;
+        }
+      }
+      .btn-wrap{
+        padding: 30px 0;
+      }
+      ul{
+        list-style: none;
+        li{
+          text-align: left;
+          font-family: $PTSansNarrowRegular;
+          color: $base-color;
+          font-size: $other-size;
+        }
+      }
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $other-size;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .faq{
+
+    h2{
+      font-family: $PTSansNarrowBold;
+      color: $red-color;
+      font-size: $h2-size;
+      font-weight: 700;
+      line-height: 0.5;
+      text-align: left;
+      padding: 20px 0 40px;
+    }
+    .btn-wrap{
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $other-size;
+      }
+    }
+  }
+  
+  .reviews{
+    background-color: $bg-rew;
+    width: 100%;
+    max-width: 1920px;
+    h5{
+      font-family: $PTSansNarrowRegular;
+      color: $light-color;
+      font-size: $h5-size;
+      font-weight: 700;
+      padding: 20px 0;
+    }
+    .reviews-item{
+      padding-bottom: 20px;
+      .photo{
+        background-color: $bg-light-color;
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 20px;
+      }
+      .name{
+        p{
+          font-family: $PTSansNarrowRegular;
+          color: $base-color;
+          font-size: $h6-size;
+          font-weight: 700;
+        }
+      }
+      .reyting{
+        float: right;
+        margin-top: -40px;
+        .block-price{
+          float: left;
+          margin-right: 10px;
+          p{
+            float: left;
+            margin-right: 10px;
+            font-family: $PTSansNarrowRegular;
+            color: $base-color;
+            font-size: $small-size;
+            font-weight: 700;
+          }
+          img{
+            cursor: pointer;
+          }
+        }
+        .block-quality{
+          float: left;
+          p{
+            float: left;
+            margin-right: 10px;
+            font-family: $PTSansNarrowRegular;
+            color: $base-color;
+            font-size: $small-size;
+            font-weight: 700;
+          }
+          img{
+            cursor: pointer;
+          }
+        }
+      }
+
+      p{
+        font-family: $PTSansNarrowRegular;
+        color: $light-color;
+        font-size: $small-size;
+      }
+    }
+    h6{
+      font-family: $PTSansNarrowRegular;
+      color: $light-color;
+      font-size: $h6-size;
+    }
+    .form{
+
+      label{
+        font-family: $PTSansNarrowRegular;
+        color: $light-color;
+        font-size: $small-size;
+        line-height: 2;
+      }
+      input{
+        width: 175px;
+        outline: none;
+      }
+      .reyting{
+        float: right;
+        margin-top: -30px;
+        .block-price{
+          float: left;
+          p{
+            float: left;
+            margin-right: 10px;
+            font-family: $PTSansNarrowRegular;
+            color: $light-color;
+            font-size: $other-size;
+            font-weight: 700;
+          }
+          img{
+            cursor: pointer;
+          }
+        }
+        .block-quality{
+          p{
+            float: left;
+            margin-right: 10px;
+            font-family: $PTSansNarrowRegular;
+            color: $light-color;
+            font-size: $other-size;
+            font-weight: 700;
+          }
+          img{
+            cursor: pointer;
+          }
+        }
+      }
+
+      textarea{
+        width: 100%;
+        height: 150px;
+        outline: none;
+      }
+      .btn-wrap{
+        padding: 20px 0;
+        .btn{
+          background: $dark-color;
+        }
+      }
+    }
+
+    .btn-wrap-bt{
+      width: 100%;
+      text-align: center;
+      .btn{
+        background: $dark-color;
+      }
+    }
+  }
+
+  .contact{
+    h5{
+      font-family: $PTSansNarrowRegular;
+      color: $base-color;
+      font-size: $h5-size;
+    }
+    form{
+      label{
+        font-family: $PTSansNarrowRegular;
+        color: $base-color;
+        font-size: $small-size;
+        line-height: 2;
+      }
+      input{
+        width: 235px;
+        height: 35px;
+        margin-right: 28px;
+        font-size: $other-size;
+        outline: none;
+      }
+      textarea{
+        width: 100%;
+        height: 150px;
+        font-size: $other-size;
+        outline: none;
+      }
+      .btn-wrap{
+        text-align: right;
+        padding: 20px 0;
+        .btn{
+          background-color: $bg-rew;
+        }
+      }
+    }
+  }
+}

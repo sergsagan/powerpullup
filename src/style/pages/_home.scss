@@ -1,0 +1,20 @@
+body{
+  background: $light-color;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  margin:0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}

@@ -1,0 +1,28 @@
+/*vendors*/
+@import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/magnific-popup/dist/magnific-popup.css";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "vendors/bootstrap";
+
+/*utils*/
+@import "utils/fonts";
+@import "utils/variables";
+@import "utils/mixins";
+
+/*base*/
+@import "base/typography";
+
+/*layout*/
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/content";
+@import "layout/footer";
+@import "layout/media";
+
+/*components*/
+@import "components/buttons";
+@import "components/accordion";
+@import "components/forms";
+
+/*pages*/
+@import "pages/home";

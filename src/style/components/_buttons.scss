@@ -1,0 +1,27 @@
+.btn{
+  background: $stack-color;
+  border-radius: 10px;
+  font-family: $PTSansNarrowRegular;
+  color: $light-color;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 2s;
+  &:hover{
+    background: lighten($stack-color, 15%);
+    text-decoration: none;
+    outline: none;
+  }
+  &:focus {
+    background: darken($stack-color, 15%);
+    text-decoration: none;
+    outline: none;
+  }
+}
+.btn-large{
+  padding: 7px 65px;
+  font-size: $h5-size;
+}
+.btn-small{
+  padding: 4px 24px;
+  font-size: $h6-size;
+}
