@@ -9,3 +9,4 @@
     Custom
  */
 //= partials/helper.js
+//= partials/slick.js

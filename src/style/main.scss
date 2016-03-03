@@ -3,6 +3,8 @@
 @import "../../bower_components/magnific-popup/dist/magnific-popup.css";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 @import "vendors/bootstrap";
+@import "vendors/slick";
+@import "vendors/slick-theme";
 
 /*utils*/
 @import "utils/fonts";
@@ -23,6 +25,8 @@
 @import "components/buttons";
 @import "components/accordion";
 @import "components/forms";
+@import "components/slider";
 
 /*pages*/
 @import "pages/home";
+@import "pages/product";

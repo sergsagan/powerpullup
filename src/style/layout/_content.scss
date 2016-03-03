@@ -60,6 +60,38 @@ main{
     }
   }
 
+  .h_form{
+    width: 100%;
+    max-width: 1920px;
+    background: url("../../img/fon-form.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    -webkit-background-size:cover;
+    background-size: cover;
+    padding-top: 20px;
+    h4{
+      font-family:$PTSansNarrowBold;
+      font-size: 2.5em;
+      color: $light-color;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .stack{
+      font-size: 2.5em;
+      @extend .heading-style;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      font-size:1.5em;
+      font-family: $PTSansNarrowRegular;
+      text-align: center;
+      color: $light-color;
+      margin-bottom: 30px;
+    }
+
+  }
+
   .work{
     h1{
       font-size: $h1-size;

@@ -1,0 +1,133 @@
+.slider1, .slider2 {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+.portfolio-thumb-slider1 .slick-slider-item {
+  padding: 5px;
+}
+.portfolio-thumb-slider2 .slick-slider-item {
+  padding: 5px;
+}
+
+.portfolio-thumb-slider1 {
+
+  .slick-slider-item1{
+    background: url("../../img/mini-turnik1.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 5px;
+    &:first-child{
+      margin-left: 5px;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  .slick-slider-item2{
+    background: url("../../img/mini-turnik2.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 4px;
+    &:first-child{
+      margin-left: 10px;
+    }
+    &:last-child{
+      margin-right: -10px;
+    }
+  }
+
+  .slick-slider-item3 {
+    background: url("../../img/mini-turnik3.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 4px;
+    &:first-child{
+      margin-left: 10px;
+    }
+    &:last-child{
+      margin-right: -10px;
+    }
+  }
+
+}
+.portfolio-thumb-slider2 {
+
+  .slick-slider-item1{
+    background: url("../../img/mini-turnik1.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 5px;
+    &:first-child{
+      margin-left: 5px;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  .slick-slider-item2{
+    background: url("../../img/mini-turnik2.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 4px;
+    &:first-child{
+      margin-left: 10px;
+    }
+    &:last-child{
+      margin-right: -10px;
+    }
+  }
+
+  .slick-slider-item3 {
+    background: url("../../img/mini-turnik3.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 4px;
+    &:first-child{
+      margin-left: 10px;
+    }
+    &:last-child{
+      margin-right: -10px;
+    }
+  }
+
+}
+
+.portfolio-thumb-slider1 .slick-active img {
+  outline: none;
+}
+.portfolio-thumb-slider1 .slick-current img {
+  outline: none;
+}
+.portfolio-thumb-slider2 .slick-active img {
+  outline: none;
+}
+.portfolio-thumb-slider2 .slick-current img {
+  outline: none;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}

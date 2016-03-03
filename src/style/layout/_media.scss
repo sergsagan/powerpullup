@@ -13,6 +13,10 @@
   header .top-info-block .training-wall img {
     width: 200px;
   }
+  header .top-info-block .training-door .turnik:hover .info-hidden, header .top-info-block .training-wall .turnik:hover .info-hidden{
+    display:none;
+  }
+
   header .top-info-block .training-door .door{
     display: none;
   }
@@ -176,6 +180,45 @@
   }
   main .inform .inform-block .fb p {
     display: none;
+  }
+
+  main .h_form{
+    h4{
+      font-size: 1.5em;
+      padding-top: 0;
+      text-align: left;
+    }
+    .stack{
+      font-size: 1.5em;
+      text-align: left;
+    }
+    p{
+      font-size:1em;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    form#form-1 {
+      width: 300px;
+      margin: 0 auto;
+    }
+    form#form-1 input[type=text] {
+      height: 20px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+    form#form-1 input[type=email]{
+      height: 20px;
+      margin-bottom: 10px;
+    }
+    .btn-wrap{
+      text-align: left!important;
+      button{
+        padding: 4px 8px;
+        font-size: 1em;
+        margin-bottom: 10px;
+      }
+    }
+
   }
   main .work h1 {
     font-size: 3em;
@@ -362,6 +405,60 @@
   header .top-info-block .training-wall .info-item .info-item_complect .img-wrap .support{
     width: 18%;
   }
+  header .top-info-block .training-door .turnik .info-hidden{
+    h5{
+      font-size: 1.5em;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin-left: 5px;
+        font-size: 1em;
+      }
+    }
+    p{
+      font-size: 1em;
+    }
+    .btn-large{
+      padding: 5px 20px;
+      font-size: 1.25em;
+    }
+  }
+  header .top-info-block .training-door .turnik:hover .info-hidden{
+    display:block;
+    position:absolute;
+    top:-10px;
+    z-index:9999;
+    width:300px;
+  }
+
+  header .top-info-block .training-wall .turnik .info-hidden{
+    h5{
+      font-size: 1.5em;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin-left: 5px;
+        font-size: 1em;
+      }
+    }
+    p{
+      font-size: 1em;
+    }
+    .btn-large{
+      padding: 5px 20px;
+      font-size: 1.25em;
+    }
+  }
+  header .top-info-block .training-wall .turnik:hover .info-hidden{
+    display:block;
+    position:absolute;
+    top:-10px;
+    z-index:9999;
+    width:300px;
+  }
+
   header .top-info-block .info-item {
     margin-top: 40px;
   }
@@ -454,6 +551,38 @@
   }
   main .inform .inform-block .fb p {
     display: none;
+  }
+
+  main .h_form{
+    h4{
+      font-size: 1.8em;
+      padding-top: 0;
+    }
+    .stack{
+      font-size: 1.8em;
+    }
+    p{
+      font-size:1.2em;
+      margin-bottom: 10px;
+    }
+    form#form-1 {
+      width: 365px;
+      margin: 0 auto;
+    }
+    form#form-1 input[type=text] {
+      height: 22px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    form#form-1 input[type=email]{
+      height: 22px;
+      margin-bottom: 10px;
+    }
+    button{
+      padding: 4px 10px;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
   }
   main .work h1 {
     font-size: 3em;
@@ -617,6 +746,59 @@
   }
   header .top-info-block .training-door img, header .top-info-block .training-wall img{
     width: 210px;
+  }
+  header .top-info-block .training-door .turnik .info-hidden{
+    h5{
+      font-size: 1.5em;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin-left: 5px;
+        font-size: 1em;
+      }
+    }
+    p{
+      font-size: 1em;
+    }
+    .btn-large{
+      padding: 5px 20px;
+      font-size: 1.25em;
+    }
+  }
+  header .top-info-block .training-door .turnik:hover .info-hidden{
+    display:block;
+    position:absolute;
+    top:-10px;
+    z-index:9999;
+    width:300px;
+  }
+
+  header .top-info-block .training-wall .turnik .info-hidden{
+    h5{
+      font-size: 1.5em;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin-left: 5px;
+        font-size: 1em;
+      }
+    }
+    p{
+      font-size: 1em;
+    }
+    .btn-large{
+      padding: 5px 20px;
+      font-size: 1.25em;
+    }
+  }
+  header .top-info-block .training-wall .turnik:hover .info-hidden{
+    display:block;
+    position:absolute;
+    top:-10px;
+    z-index:9999;
+    width:300px;
   }
 
   header .top-info-block h2 {
@@ -1083,9 +1265,6 @@
   }
   main .fitnes .social p {
     font-size: 1em;
-  }
-  main .change .training-door img, main .change .training-wall img{
-    width: 65%;
   }
   main .change .training-door ul li, main .change .training-wall ul li {
     font-size: 1.25em;

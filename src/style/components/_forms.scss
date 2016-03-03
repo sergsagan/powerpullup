@@ -31,3 +31,29 @@
   }
 
 }
+form#form-1 {
+  width: 365px;
+  margin: 30px auto;
+
+  input[type="text"] {
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    outline: $stack-color;
+    &:hover, &:active{
+      outline: $stack-color;
+    }
+  }
+  input[type="email"]{
+    height: 30px;
+    margin-bottom: 20px;
+    outline: $stack-color;
+    &:hover, &:active{
+      outline: $stack-color;
+    }
+  }
+  .btn-wrap{
+    width: 100%;
+    text-align: center;
+  }
+}
